@@ -1,0 +1,27 @@
+package com.cdac;
+
+public class BinarySearchInArray {
+	
+	public static int checkBianrySearch(int arr[],int key) {
+		
+		int l = 0;
+		int r = arr.length - 1;
+		
+		
+		int m = l +(l+r)/2;
+		
+		while(l<r) {
+			if(arr[m]==key) {
+				return m;
+			}
+			else if(arr[m]<key) {
+				r = m -1;
+			}
+			else {
+				l = m+1;
+			}
+		}
+		return -1;
+		
+	}
+}

@@ -1,0 +1,19 @@
+package com.cdac;
+
+import java.util.Scanner;
+
+public class LabCodingQuestions {
+	
+	public static void main(String args[]) {
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		//System.out.println(StringPalindrom.checkStringPali(sc.next()));
+		
+		int arr[] = {1,2,5,7,9};
+		
+		System.out.println(BinarySearchInArray.checkBianrySearch(arr, 1));
+		
+		sc.close();
+	}
+}

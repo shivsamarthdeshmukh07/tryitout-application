@@ -1,0 +1,13 @@
+package com.cdac;
+
+import java.util.Scanner;
+
+public class LabCodingQuestions {
+	
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print(StringPalindrom.checkStringPali(sc.next()));
+		
+	}
+}

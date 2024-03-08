@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ASUS\Desktop\C-DAC KH\Final project\Back-end\Try-It-Out\TryItOut"/>
+			<item value="C:\Users\ASUS\Desktop\C-DAC KH\Final project\Back-end"/>
+			<item value="D:\CDAC\final pro\TryItOut1"/>
+			<item value="D:\CDAC\final pro\Try-It-Out"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
